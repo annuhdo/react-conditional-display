@@ -484,10 +484,8 @@ function Display(props) {
 		}
 	}
 
-	var tag = props.tag,
-	    className = props.className;
-
-
+	var Tag = props.tag;
+	var className = props.className;
 	var childrenCount = _react2.default.Children.count(props.children);
 
 	if (childrenCount < 2) {
@@ -495,11 +493,9 @@ function Display(props) {
 	}
 
 	return _react2.default.createElement(
-		'tag',
+		Tag,
 		_extends({}, props.other, { className: className }),
-		' ',
-		props.children,
-		' '
+		props.children
 	);
 }
 
