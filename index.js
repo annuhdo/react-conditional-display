@@ -9,20 +9,17 @@ function Display(props) {
 		else {
 			return null;
 		}
-  	}
-
-  	const {
-		tag,
-		className
-	} = props;
-
+	}
+	
+	const Tag = props.tag;
+	const className = props.className;
 	const childrenCount = React.Children.count(props.children);
-
+	
 	if (childrenCount < 2) {
 		return props.children;
 	}
 
-	return <tag {...props.other} className={className}> { props.children } </tag>;
+	return <Tag {...props.other} className={className}>{ props.children }</Tag>;
 }
 
 Display.defaultProps = {
