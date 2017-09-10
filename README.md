@@ -31,9 +31,9 @@ class App extends Component {
         <span>This will always show!</span>
         <Display
         if={this.state.show}
-        else={this.renderSomething()
+        else={this.renderSomething()}
         tag="section"
-        className="center-modal"}>
+        className="center-modal">
           <h1>Hi friends!</h1>
           <div>I am the primary render!</div>
         </Display>
@@ -43,6 +43,7 @@ class App extends Component {
 }
 export default App;
 ```
+[View on Codepen](https://codepen.io/annuhdo/pen/YxoVXW?editors=0110)
 
 ## Installation
 The component is available on npmjs. Simply run:
