@@ -1,6 +1,6 @@
 {
   "name": "react-conditional-display",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Conditionally display UI view",
   "main": "build/index.js",
   "scripts": {
