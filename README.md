@@ -58,3 +58,6 @@ export default App;
 
 ## Contributions, Issues, and Changes
 This project is ongoing. Please [open an issue](https://github.com/annuhdo/react-conditional-display/issues) if you would like to contribute!
+
+## Acknowledgement
+Thanks to [Noel Broda's article on how to create and publish a React component on NPM!](https://medium.com/@BrodaNoel/how-to-create-a-react-component-and-publish-it-in-npm-668ad7d363ce)
