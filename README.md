@@ -1,13 +1,21 @@
 # react-conditional-display 🌤⛅️🌥
 
-A react component that provides conditional display of the component's children elements in the UI. 
+A react component that provides conditional display of the component's children elements in the UI.
+
+The component is available on npmjs. Simply run:
+```
+npm install react-conditional-display
+```
 
 ## Props
-The component takes in a few props:
-- `if` **(required)** takes in a boolean statement where true will render while false will not render the children.
-- `else` _(optional)_ takes in a single JSX expression to render an alternative output if the `if` statement is false.
-- `tag` _(optional)_ takes in a string that represents the HTML tag as the HTML parent container of the children elements. Defaults to `div`. Recommended to use if there are multiple children elements.
-- `className` _(optional_) takes in a string representing the class(es) of the tag if it exists. Recommended to use if there are multiple children elements.
+| Name   | Required | Default | Type              |Comment                                 |
+|--------|----------|---------|-------------------|----------------------------------------|
+| if     | Yes      | -       | `bool` | Determines whether to render the principal children element(s).     |
+| else     | No       | `null`  | `func`, `element` | Alternative React component that would be rendered if `if` is false.  |
+| tag   | No       | `div` | `string`    | The HTML tag of the parent container if there are multiple children elements. |
+| className   | No       | `null`    | `string` | Class associated with the parent container if there are multiple children elements. |
+
+The component detects whether there are multiple children elements and will automatically wrap them in a div tag if no tag is provided. Otherwise, the sole child element would be rendered exactly as written.
 
 ## Example Usage
 ```javascript
@@ -44,12 +52,6 @@ class App extends Component {
 export default App;
 ```
 [View on Codepen](https://codepen.io/annuhdo/pen/YxoVXW?editors=0110)
-
-## Installation
-The component is available on npmjs. Simply run:
-```
-npm install react-conditional-display
-```
 
 ## Roadmap
 - Further testing
