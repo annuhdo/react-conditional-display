@@ -1,6 +1,6 @@
 # react-conditional-display 🌤⛅️🌥
 
-A react component that provides conditional display of the component's children elements in the UI.
+A react component that conditionally display the component's children elements in the UI.
 
 The component is available on npmjs. Simply run:
 ```
