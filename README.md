@@ -54,8 +54,8 @@ export default App;
 [View on Codepen](https://codepen.io/annuhdo/pen/YxoVXW?editors=0110)
 
 ## Performance
-As of version [0.0.3](https://bundlephobia.com/result?p=react-conditional-display@0.0.3):
-![BundlePhobia Screenshot of Performance](https://d.pr/vkWmK.png)
+As of version [0.0.4](https://bundlephobia.com/result?p=react-conditional-display@0.0.4):
+![BundlePhobia Screenshot of Performance](https://d.pr/PYC4fb.png)
 
 ## Roadmap
 - Further testing
