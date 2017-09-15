@@ -508,7 +508,7 @@ Display.propTypes = {
 	tag: _propTypes2.default.string,
 	className: _propTypes2.default.string,
 	if: _propTypes2.default.bool,
-	else: _propTypes2.default.func
+	else: _propTypes2.default.oneOfType([_propTypes2.default.object, _propTypes2.default.func])
 };
 
 exports.default = Display;

@@ -31,7 +31,10 @@ Display.propTypes = {
 	tag: PropTypes.string,
 	className: PropTypes.string,
 	if: PropTypes.bool,
-	else: PropTypes.func
+	else: PropTypes.oneOfType([
+		PropTypes.object,
+		PropTypes.func
+	])
 };
 
 export default Display;
