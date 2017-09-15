@@ -1,6 +1,6 @@
 {
   "name": "react-conditional-display",
-  "version": "0.0.4",
+  "version": "0.1.0",
   "description": "React component for conditionally display its children in the UI",
   "main": "build/index.js",
   "scripts": {
