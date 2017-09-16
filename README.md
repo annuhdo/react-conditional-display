@@ -1,5 +1,5 @@
 # react-conditional-display 🌤⛅️🌥
-[![Build Status](https://travis-ci.org/annuhdo/react-conditional-display.svg?branch=master)](https://github.com/annuhdo/react-conditional-display)
+[![Build Status](https://travis-ci.org/annuhdo/react-conditional-display.svg?branch=master)](https://travis-ci.org/annuhdo/react-conditional-display)
 
 A react component that conditionally display the component's children elements in the UI.
 
