@@ -56,7 +56,7 @@ export default App;
 
 ## Performance
 As of version [0.1.4](https://bundlephobia.com/result?p=react-conditional-display):
-![BundlePhobia Screenshot of Performance](https://d.pr/HWL9r0.png)
+![BundlePhobia Screenshot of Performance](https://d.pr/DMIMJA.png)
 
 ## Contributions, Issues, and Changes
 Please [open an issue](https://github.com/annuhdo/react-conditional-display/issues) if you would like to contribute!
