@@ -55,11 +55,14 @@ export default App;
 [View on Codepen](https://codepen.io/annuhdo/pen/YxoVXW?editors=0110)
 
 ## Performance
-As of version [0.0.4](https://bundlephobia.com/result?p=react-conditional-display@0.0.4):
-![BundlePhobia Screenshot of Performance](https://d.pr/PYC4fb.png)
+As of version [0.1.4](https://bundlephobia.com/result?p=react-conditional-display):
+![BundlePhobia Screenshot of Performance](https://d.pr/DMIMJA.png)
 
 ## Contributions, Issues, and Changes
 Please [open an issue](https://github.com/annuhdo/react-conditional-display/issues) if you would like to contribute!
 
 ## Acknowledgement
 Thanks to [Noel Broda's article on how to create and publish a React component on NPM!](https://medium.com/@BrodaNoel/how-to-create-a-react-component-and-publish-it-in-npm-668ad7d363ce)
+
+## License
+[![WTFPL License](http://www.wtfpl.net/wp-content/uploads/2012/12/wtfpl-badge-1.png)](http://www.wtfpl.net/about/)
