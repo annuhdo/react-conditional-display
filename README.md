@@ -55,8 +55,8 @@ export default App;
 [View on Codepen](https://codepen.io/annuhdo/pen/YxoVXW?editors=0110)
 
 ## Performance
-As of version [0.0.4](https://bundlephobia.com/result?p=react-conditional-display@0.0.4):
-![BundlePhobia Screenshot of Performance](https://d.pr/PYC4fb.png)
+As of version [0.1.4](https://bundlephobia.com/result?p=react-conditional-display):
+![BundlePhobia Screenshot of Performance](https://d.pr/HWL9r0.png)
 
 ## Contributions, Issues, and Changes
 Please [open an issue](https://github.com/annuhdo/react-conditional-display/issues) if you would like to contribute!
