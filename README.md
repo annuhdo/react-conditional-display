@@ -65,4 +65,4 @@ Please [open an issue](https://github.com/annuhdo/react-conditional-display/issu
 Thanks to [Noel Broda's article on how to create and publish a React component on NPM!](https://medium.com/@BrodaNoel/how-to-create-a-react-component-and-publish-it-in-npm-668ad7d363ce)
 
 ## License
-[![WTFPL License](http://www.wtfpl.net/wp-content/uploads/2012/12/wtfpl-badge-1.png)](http://www.wtfpl.net/about/)
+MIT
