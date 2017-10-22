@@ -1,5 +1,9 @@
 import React from 'react';
 import { shallow, mount, render } from 'enzyme';
+import { configure } from 'enzyme';
+import Adapter from 'enzyme-adapter-react-16';
+configure({ adapter: new Adapter() });
+
 import Display from '../src/index';
 
 test('Nothing should be displayed if there is no if', () => {

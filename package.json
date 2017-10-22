@@ -4,7 +4,7 @@
   "description": "React component for conditionally display its children in the UI",
   "main": "build/index.js",
   "scripts": {
-    "test": "jest",
+    "test": "jest --env=jsdom --setupTestFrameworkScriptFile=raf/polyfill",
     "start": "webpack --watch",
     "build": "webpack"
   },
@@ -35,6 +35,8 @@
     "babel-preset-env": "^1.6.1",
     "babel-preset-react": "^6.24.1",
     "enzyme": "^3.1.0",
+    "enzyme-adapter-react-16": "^1.0.2",
+    "enzyme-to-json": "^3.1.4",
     "jest": "^21.2.1",
     "react-test-renderer": "^16.0.0"
   },
